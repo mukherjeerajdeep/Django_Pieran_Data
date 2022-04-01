@@ -12,38 +12,36 @@
 
     <!--Actions: where we send the data -->
     <!--Method: get/post HTTP method -->
-
     <h1>Log In</h1>
     <h2>Please Input your Password and Email</h2>
+
 
     <!-- Two ways of using a Label-->
     <!-- Nested -->
     <!--  for and id connection-->
-
     <form action="http://www.google.com" method="get">
+      <p>
+        <label>
+           EMAIL:
+           <input type="email" name="useremail" value="Email Here">
+        </label>
 
-      <label>
-         EMAIL:
-         <input type="email" name="useremail" value="Email Here">
-      </label>
-
-
-      <label >
-        PASSWORD:
-      <input type="password" name="password" placeholder="Password">
-      </label>
-
+        <label >
+          PASSWORD:
+        <input type="password" name="password" placeholder="Password">
+        </label>
+      </p>
       <!-- Validation -->
       <!--  Usually do a lot more validation with Backend-->
       <!--  Use the attribute: required to require input-->
-
-      <label for="userinput">TEXT:</label>
-
-
-      <input type="text" id="userinput"name="input" placeholder="Enter Text Here" required>
-
-      <input type="submit" >
-
+      <h2> Example "label" with the "for" and "id"</h2>
+      <p>
+        <label for="userinput">TEXT:</label>
+        <!-- placeholder is a nice way to show the page -->
+        <input type="text" id="userinput" name="input" placeholder="Text Required Here" required>
+        <input type="text" id="userinput" name="output" placeholder="Text Not Required Here">
+        <input type="submit" >
+      </p>
     </form>
 
 
