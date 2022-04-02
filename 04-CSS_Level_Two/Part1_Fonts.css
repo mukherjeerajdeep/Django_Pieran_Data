@@ -13,7 +13,8 @@ h1{
 
 /* The whole font family will be monospace */
 p{
-  font-family: monospace;
+  /* font-family: monospace; */
+  font-family: 'Roboto', sans-serif;
 }
 
 /* The whole body font size is 20px */
@@ -30,6 +31,7 @@ p{
 /* The em should be called based on the body not the headers */
 #two{
   font-size: 2.0em;
+  font-family: 'BilboSwashCapsRegular'; /* Using another Font */
 }
 
 
