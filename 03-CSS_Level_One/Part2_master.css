@@ -5,16 +5,17 @@ body{
 }
 
 div{
-  background: blue;
-  border: orange;
-  border-width: thick; /* 10 px */
+  background: ;
+  border-color: orange;
+  border-width: thin; /* 10 px */
   border-style: dotted;
-
+  /* border-spacing: inherit; */
   }
 
 p{
-  color: yellow;
+  color: #18693e;
 }
+
 span{
   background: red;
   color: black;
