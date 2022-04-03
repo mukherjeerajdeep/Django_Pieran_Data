@@ -1,6 +1,9 @@
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity*/
 /*https://designshack.net/articles/css/what-the-heck-is-css-specificity/*/
 
+/* Here the specificity works in this way
+The id > class > tags, so the id has the highest priority */
+
 li{
   color: red;
 }

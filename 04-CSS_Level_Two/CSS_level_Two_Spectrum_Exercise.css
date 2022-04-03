@@ -1,0 +1,65 @@
+
+body{
+  background-image: url("QYjuyg.webp");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+/* Color Changing Background */
+/* body {
+    -webkit-animation: colorchange 60s infinite;
+    animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   */
+
+h1 {
+  font-family: 'BIZ UDPMincho', serif;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  display: inline-block;
+  background-color: blue;
+  height: 200px;
+  width: 100px;
+  /* padding: 10px; */
+  border: 6px solid white;
+
+}
+
+#col1 {
+  background-color: #FBF8CC;
+}
+
+#col2{
+  background-color: #FDE4CF;
+}
+
+#col3{
+  background-color: #FFCFD2;
+}
+
+#col4{
+  background-color: #F1C0E8;
+}
+
+#col5{
+  background-color: #CFBAF0;
+}

@@ -1,8 +1,10 @@
 
 body{
   font-family: 'Montserrat';
+  /* Color of the Font */
   color: #FDFFFC;
   text-align: center;
+  /* Color of the background */
   background-color: #011627;
   border: 60px solid #2EC4B6;
   border-top: 0px;
@@ -10,8 +12,9 @@ body{
   margin: 0px;
 }
 
+
 p{
-  color: #FDFFFC;
+  color: #90DBF4;
   padding-top: 5%;
   padding-left: 20%;
   padding-right: 20%;
