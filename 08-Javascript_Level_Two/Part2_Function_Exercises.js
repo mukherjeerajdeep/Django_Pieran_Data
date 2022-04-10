@@ -1,4 +1,4 @@
-// FUNCTION EXERCISES - SOLUTIONS
+ // FUNCTION EXERCISES - SOLUTIONS
 
 // Functions are an extremely important part of understanding how to program
 // and they also allow for an ideal way of testing out your general JavaScript

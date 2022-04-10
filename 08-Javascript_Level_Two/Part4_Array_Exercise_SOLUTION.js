@@ -25,7 +25,12 @@ function addNew(){
 function remove(){
   var remName = prompt("What name would you like to remove?");
   var index = roster.indexOf(remName);
-  roster.splice(index,1)
+  if (index !== -1) {
+    roster.splice(index,1);
+  }else {
+    alert("Wrong input");
+  }
+
 }
 
 // DISPLAY ROSTER
@@ -50,7 +55,11 @@ if (start === "y") {
       display();
     }else if (request == "remove") {
       remove();
+    }else {
+      alert("Not Recognized, so setting to quit");
+      request = 'quit';
     }
+
   }
 }
 alert("Thanks for using the Web App! Please refresh the page to start over.")
