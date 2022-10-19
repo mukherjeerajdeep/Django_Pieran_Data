@@ -10,7 +10,7 @@ var roster = []
 
 // Create a function called addNew that takes in a name
 // and uses .push to add a new student to the array
-function addNew(){
+function addNew() {
   var newName = prompt("What name would you like to add? ");
   roster.push(newName)
 }
@@ -22,12 +22,13 @@ function addNew(){
 
 // HINT: http://stackoverflow.com/questions/5767325/how-to-remove-a-particular-element-from-an-array-in-javascript
 //
-function remove(){
+function remove() {
   var remName = prompt("What name would you like to remove?");
   var index = roster.indexOf(remName);
+  
   if (index !== -1) {
-    roster.splice(index,1);
-  }else {
+    roster.splice(index, 1);
+  } else {
     alert("Wrong input");
   }
 
@@ -36,7 +37,7 @@ function remove(){
 // DISPLAY ROSTER
 
 // Create a function called display that prints out the orster to the console.
-function display(){
+function display() {
   console.log(roster);
 }
 
@@ -51,11 +52,11 @@ if (start === "y") {
     request = prompt("Please select an action: add, remove, display, or quit.")
     if (request === "add") {
       addNew();
-    }else if (request === "display") {
+    } else if (request === "display") {
       display();
-    }else if (request == "remove") {
+    } else if (request == "remove") {
       remove();
-    }else {
+    } else {
       alert("Not Recognized, so setting to quit");
       request = 'quit';
     }

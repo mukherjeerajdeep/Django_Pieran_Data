@@ -8,7 +8,11 @@
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  nameLength: function () {
+    console.log("Lenght of the employees name " + this.name.length);
+  }
+
 }
 
 // Add a method called nameLength that prints out the
@@ -41,7 +45,11 @@ var employee = {
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  lastName: function () {
+    let name_arr = this.name.split(" ");    
+    console.log("Last name: " + name_arr[1]);
+  }
 }
 
 // Add a method called lastName that prints

@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("QYjuyg.webp");
+  /* background-image: url("QYjuyg.webp"); */
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -26,7 +26,8 @@ body{
 }   */
 
 h1 {
-  font-family: 'BIZ UDPMincho', serif;
+  /* font-family: 'BIZ UDPMincho', serif; */
+  font-family: 'Fira Sans', sans-serif;
   text-align: center;
 }
 
@@ -36,12 +37,13 @@ table{
 
 td{
   display: inline-block;
-  background-color: blue;
-  height: 200px;
+  /* This will be ovewritten */
+  background-color: black;
+  height: 350px;
   width: 100px;
   /* padding: 10px; */
-  border: 6px solid white;
-
+  border: 2px solid white;
+  margin: 2px;
 }
 
 #col1 {

@@ -10,9 +10,10 @@ headOne.addEventListener('mouseover',function(){
   headOne.style.color = 'red';
 })
 
+// Mouseout will rever the changes
 headOne.addEventListener('mouseout',function(){
-  headOne.textContent = "Mouse Not On me."
-  headOne.style.color = 'blue';
+  headOne.textContent = "Hover Over Me!"
+  headOne.style.color = 'black';
 })
 
 

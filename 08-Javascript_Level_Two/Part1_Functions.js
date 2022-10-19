@@ -108,10 +108,10 @@ var result = formal()
 
 // EXAMPLE
 
-// Multiplies input by 5
+// Multiplies input by 5 
 function times5(numInput) {
-  var result = numInput * 5
-  return result
+  var result = numInput * 5;
+  return result;
 }
 
 times5(5)
